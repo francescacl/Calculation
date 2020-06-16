@@ -1,5 +1,9 @@
 language: java
 jdk:
 - openjdk8
+addons:
+    sonarcloud:
+        organization: francescacl
+        token: 2c7e3d29a0f88f9188975d91849aa62fd4c70c79
 script:
 - ant build
